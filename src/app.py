@@ -6,7 +6,7 @@ st.title("EMPLEATRONIX")
 st.text("Todos los datos sobre los empleados en una aplicación.")
 
 # Cargar el conjunto de datos
-df = pd.read_csv('/employees.csv')  # si falla añadir una /
+df = pd.read_csv('employees.csv')  # si falla añadir una /
 
 # Mostrar la tabla en Streamlit
 st.write(df)
